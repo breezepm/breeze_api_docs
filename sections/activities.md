@@ -2,7 +2,7 @@
 
 All activity responses are paginated 50 items per page. To get the next page append **?page=XX** to the query.
 
-## Get activity from all projects
+### Get activity from all projects
 * `GET /activities.json` get all activity entries
 
 Response
@@ -27,17 +27,17 @@ Response
 ] 
 ```
 
-Get activity from all projects by a user
+###Get activity from all projects by a user
 * `GET /activities/:user_id.json` get activity entries
 
 Response is same as for all activities query.
 
-Get activity from a project
+###Get activity from a project
 * `GET /projects/:project_id/activities.json` get all activity entries
 
 Response is same as for all activities query.
 
-Get activity from a projects by a user
+###Get activity from a projects by a user
 * `GET /projects/:project_id/activities/:user_id.json` get activity entries
 
 Response is same as for all activities query.
