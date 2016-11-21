@@ -42,3 +42,9 @@ Request
 }
 ```
 
+You can move a card using:
+
+```
+POST /projects/:project_id/cards/:card_id/move.json 
+```
+
