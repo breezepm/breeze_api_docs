@@ -3,14 +3,14 @@ Breeze API Documentation
 
 
 
-##The API Format##
+## The API Format
 
 The API accepts only JSON requests. Please make sure you're setting `Content-Type: application/json`in your request header. Each request returns a **JSON-encoded** body.
 
 The result of each action is communicated via standard HTTP response codes.
 
 
-##API token##
+## API token
 
 Each user has an API token. You can find it under **"Personal settings & password"** in the **"API Token"** section.
 
@@ -65,7 +65,7 @@ curl http://api.breeze.pm/projects.json?api_token=6dasdg782
 * [Activities](https://github.com/breezepm/breeze_api_docs/blob/master/sections/activities.md)
 
 
-##Help us make it better##
+## Help us make it better
 
 If you have any requests or you found a bug, you can use Github issues to let us know. You can also fork the docs and send a pull request with improvements
 
